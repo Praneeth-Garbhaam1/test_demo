@@ -1,0 +1,37 @@
+.card-content{
+    background-color: var(--caloryCard);
+    color: white;
+    padding: 2rem;
+    fill: white;
+    gap: 0.7rem;
+    display: flex;
+    flex-direction: column;
+}
+.card-content > img{
+    width: 32px;
+    fill: white;
+}
+.card-content .join-now span > img{
+    width: 1rem;
+    padding-left: 1rem;
+}
+.card-content >:nth-child(1){
+    width: 2rem;
+    height: 2rem;
+}
+.card-content >:nth-child(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+.join-now{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.join-now>img {
+    width: 1rem;
+}
+.card-content:hover{
+    background: linear-gradient(210.41deg, rgb(250, 80, 66) 1.14%, rgb(255, 167, 57) 100.75%);
+    cursor: pointer;
+}
